@@ -20,3 +20,8 @@ Just load the Python script and change the directory of the input files as neede
 Install the required Python packages:
 ```bash
 pip install pandas
+
+
+###CMD running
+python split_spec_lib.py
+
