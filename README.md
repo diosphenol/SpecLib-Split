@@ -1,6 +1,6 @@
 # SpecLib-Split
 
-Split mixed ion mass spec spectral Library into Positive and Negative subsets like ALL_GNPS.
+Split mixed ion mass spec spectral Library in either .msp or .mgf format into Positive and Negative subsets like ALL_GNPS.
 
 ## Overview
 
@@ -23,5 +23,7 @@ pip install pandas
 
 
 ###CMD running
-python split_spec_lib.py
+python split_spec_lib_MSP.py #For .msp lib
+python split_spec_lib_MGF.py #For .mgf lib
+
 
